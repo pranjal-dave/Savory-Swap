@@ -1,6 +1,5 @@
 import { connectToDB } from "@utils/database";
 import Recipe from "@models/recipe";
-import { useServerInsertedHTML } from "next/navigation";
 
 export const POST = async(req,res) => {
 
